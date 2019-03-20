@@ -1,0 +1,6 @@
+customShell : customShell.o
+	g++ -o customShell customShell.o
+customShell.o :
+	g++ -Wall -c customShell.cpp
+version.o :
+	g++ -Wall -c version.cpp
