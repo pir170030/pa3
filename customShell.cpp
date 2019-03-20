@@ -6,6 +6,7 @@ static double VERSION = 1.3;
 
 
 // Ive added a comment
+// ALSO CHANGED
 int main(int argc, char* argv[])
 {
     displayVersion();
